@@ -93,6 +93,7 @@
   background-color: hsl(224, 93%, 58%);
   border: none;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 /* SECTION 3 */
@@ -236,6 +237,7 @@
   border-radius: 3px;
   font-family: Open Sans;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* SECTION FIVE */
