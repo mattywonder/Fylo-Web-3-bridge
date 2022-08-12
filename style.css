@@ -195,12 +195,16 @@
 
 /* SECTION 4 */
 
+.s-4 {
+  background-color: hsl(238, 22%, 44%);
+}
+
 .section-four {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 500px;
-  background-color: hsl(238, 22%, 44%);
+  gap: 350px;
+  padding: 80px;
 }
 
 .section-four h3 {
@@ -215,4 +219,102 @@
   font-size: 16px;
   font-family: Open sans;
   line-height: 1.5;
+}
+
+.section-four input {
+  width: 380px;
+  height: 38px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-2 {
+  padding: 12px 30px;
+  color: white;
+  background-color: hsl(224, 100%, 69%);
+  border: none;
+  border-radius: 3px;
+  font-family: Open Sans;
+  border-radius: 5px;
+}
+
+/* SECTION FIVE */
+
+.footer {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.section-five {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 70px;
+  color: white;
+}
+
+.section-five ul {
+  list-style: none;
+}
+
+.image {
+  filter: invert(97%) sepia(0%) saturate(7500%) hue-rotate(166deg)
+    brightness(109%) contrast(102%);
+}
+
+.phone-email {
+  margin-bottom: 120px;
+}
+
+.phone-number {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.email-address {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.about-us a:link,
+.about-us a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: Open sans;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.about-us a:hover {
+  color: hsl(224, 93%, 58%);
+}
+
+.about-us a:active {
+  color: white;
+}
+
+.contact-us a:link,
+.contact-us a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: Open sans;
+  font-size: 14px;
+  line-height: 2.5;
+}
+
+.contact-us a:hover {
+  color: hsl(224, 93%, 58%);
+}
+
+.contact-us a:active {
+  color: white;
+}
+
+.social-media-logo {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 75px;
+  filter: invert(97%) sepia(0%) saturate(7500%) hue-rotate(166deg)
+    brightness(109%) contrast(102%);
 }
